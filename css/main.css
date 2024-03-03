@@ -4,6 +4,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #000000;
+  font-size: 14px;
 }
 
 .container {
@@ -22,6 +23,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  margin-bottom: 76px;
 }
 
 .logo {
@@ -69,3 +71,111 @@ body {
   justify-content: space-between;
   column-gap: 30px;
 }
+
+.header-heading {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.header-content {
+  max-width: 500px;
+  margin-top: 124px;
+}
+
+/* services */
+.services {
+  padding: 90px 0;
+}
+
+.services-row {
+  display: flex;
+  column-gap: 30px;
+}
+
+.services-card {
+}
+
+.services-card-img {
+  margin-bottom: 30px;
+}
+
+.services-card-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.services-card p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 200%;
+}
+
+/* portfolio */
+.portfolio {
+  background-color: rgb(241, 241, 241);
+  padding: 90px 0;
+}
+
+.portfolio-title {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.title-1 {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 51px;
+}
+
+.project {
+  text-align: center;
+}
+
+.project:not(:last-child) {
+  margin-bottom: 90px;
+}
+
+.project-img {
+  margin-bottom: 40px;
+}
+
+.project-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.project-title a {
+  color: rgb(7, 7, 7);
+}
+
+/* footer */
+.contacts {
+  padding: 90px 0;
+  text-align: center;
+}
+
+.contacts-tite {
+  margin-bottom: 40px;
+}
+
+.contacts-content {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.contacts-button {
+}
+
+.btn {
+}
+.contacts-social {
+}
+.contacts-footer {
+}
+
