@@ -7,6 +7,10 @@ body {
   font-size: 14px;
 }
 
+button {
+  border: none;
+}
+
 .container {
   max-width: 1230px;
   padding: 0 30px;
@@ -56,6 +60,10 @@ body {
   font-weight: 500;
 }
 
+.nav-button {
+  display: none;
+}
+
 .nav-link {
   color: #000;
   text-decoration: none;
@@ -91,9 +99,6 @@ body {
 .services-row {
   display: flex;
   column-gap: 30px;
-}
-
-.services-card {
 }
 
 .services-card-img {
@@ -159,7 +164,7 @@ body {
   text-align: center;
 }
 
-.contacts-tite {
+.contacts-title {
   margin-bottom: 40px;
 }
 
@@ -167,15 +172,47 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
-}
-
-.contacts-button {
+  max-width: 480px;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .btn {
+  display: inline-block;
+  margin-bottom: 80px;
+  background: rgb(7, 7, 7);
+  padding: 8px 23px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
 }
+
+.btn:hover, .btn:focus {
+  background-color: #323232;
+}
+
+.btn:active {
+  background-color: #000;
+  position: relative;
+  top: 1px;
+}
+
 .contacts-social {
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+  align-items: center;
+  margin-bottom: 40px;
 }
+
 .contacts-footer {
+  color: rgb(130, 130, 130);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
 }
 
