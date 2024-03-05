@@ -32,4 +32,73 @@
   .nav-link{
     color: rgb(96, 96, 96);
   }
+
+  .header-nav {
+    margin-bottom: 50px;
+  }
+
+  .header-img {
+    text-align: center;
+  }
+
+  .header-row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .header-content {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-heading {
+    font-size: 34px;
+    font-weight: 600;
+  }
+
+  .header-heading span {
+    font-size: 28px;
+  }
+
+  .services {
+    padding: 60px 0;
+  }
+
+  .portfolio {
+    padding: 60px 0;
+  }
+
+  .portfolio-title {
+    margin-bottom: 50px;
+  }
+
+  .project-img {
+    margin-bottom: 30px;
+  }
+
+  .project:not(:last-child) {
+    margin-bottom: 55px;
+  }
+
+  .contacts {
+    padding: 60px 0;
+  }
+
+  .contacts-title {
+    margin-bottom: 20px;
+  }
+
+  .contacts-content {
+    margin-bottom: 20px;
+  }
+
+  .contacts-button {
+    margin-bottom: 70px;
+  }
+
+  .contacts-social {
+    column-gap: 50px;
+    margin-bottom: 20px;
+  }
 }

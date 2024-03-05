@@ -91,6 +91,12 @@ button {
   margin-top: 124px;
 }
 
+.header-row p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 200%;
+}
+
 /* services */
 .services {
   padding: 90px 0;
@@ -98,7 +104,14 @@ button {
 
 .services-row {
   display: flex;
+  row-gap: 60px;
+  flex-wrap: wrap;
   column-gap: 30px;
+}
+
+.services-card {
+  flex: 1 1 0;
+  min-width: 315px;
 }
 
 .services-card-img {
@@ -186,9 +199,12 @@ button {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  transition: background-color 0.2s ease-in, top 0.2s ease-in;
 }
 
 .btn:hover, .btn:focus {
