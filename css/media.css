@@ -3,13 +3,18 @@
     display: none;
   }
   .nav-button {
-    position: fixed;
+    position: absolute;
     top: 46px;
     right: 30px;
     display: block;
     z-index: 2;
     background-color: inherit;
   }
+
+  .nav.open .nav-button {
+    position: fixed;
+  }
+
   .nav.open .nav-list {
     position: fixed;
     top: 0;
